@@ -1,3 +1,12 @@
+# Gitlab server upload
+This an an API for a gitlab server to upload backups to a remote server. All received backup files are after upload marked as Immutable
+The environment variable 'TOKEN' must be set and must be in the HTTP headers as a baerer token.
+
+# Git client upload files
+This uploads all missing files from a gitlab server to a remote server.
+It checks what files are missing on the remote server and uploads them.
+The environment variable 'TOKEN' must be set and must be in the HTTP headers as a baerer token.
+
 # Gitlab backup retention
 
 ## How It Works
